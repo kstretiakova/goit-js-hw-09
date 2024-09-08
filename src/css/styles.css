@@ -4,6 +4,35 @@
   | default @import url()
   |============================
 */
-/* Common styles */
-
 @import url('./reset.css');
+@import url('./1-gallery.css');
+@import url('./2-form.css');
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.home-page {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding: 25px;
+  color: black;
+}
+.home-page li a:hover {
+  color: blue;
+}
